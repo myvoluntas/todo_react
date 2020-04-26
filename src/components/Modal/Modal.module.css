@@ -1,7 +1,7 @@
 /* Modal page styles */
 
 .ModalContainer,
-.modal-container-bkg-color {
+.ModalContainerBkgColor {
   display: none;
   grid-template-columns: 1fr minmax(280px, 500px) 1fr;
   grid-template-rows: repeat(3, 1fr);
@@ -17,7 +17,7 @@
   background-color: rgba(0, 0, 0, 0.6); /* Black w/ opacity */
 }
 
-.model_box {
+.ModalBox {
   display: grid;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
@@ -30,18 +30,18 @@
   background-color: #f5f5f5;
 }
 
-.model_header {
+.ModalHeader {
   justify-self: end;
   height: 40px;
 }
 
-button.close-modal {
+button.CloseModal {
   border: 0;
   padding: 0;
   color: #666666;
   background-color: transparent;
 }
-.model-content-header {
+.ModalContentHeader {
   font-size: 1.2rem;
   font-weight: 300;
   text-transform: uppercase;
@@ -49,11 +49,11 @@ button.close-modal {
   margin-bottom: 0.5em;
 }
 
-.model-content-box {
+.ModalContentBox {
   margin-bottom: 2em;
 }
 
-.model-content-box label {
+.ModalContentBox label {
   font-size: 0.75rem;
   font-weight: 400;
   color: #adadad;

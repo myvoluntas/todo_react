@@ -59,7 +59,7 @@
 }
 
 /* Add todo button */
-a.add-todo {
+a.AddTodo {
   display: grid;
   grid-template-rows: 1fr;
   color: #666666;
@@ -73,27 +73,27 @@ a.add-todo {
   text-decoration: none;
 }
 
-a.add-todo:hover {
+a.AddTodo:hover {
   background-color: #000;
   color: #ffffff;
   transform: scale(1.2);
   transition: ease-in 300ms;
 }
 
-.add-todo {
+.AddTodo {
   border: 0;
   height: inherit;
   width: inherit;
 }
 
-a.add-todo span.material-icons {
+a.AddTodo span.MaterialIcons {
   grid-row: 2 / 3;
   grid-gap: 0px;
   line-height: 50px;
 }
 
 /* Colour settings button */
-.settingsBtn {
+.SettingsBtn {
   display: grid;
   margin-top: 0.5em;
   width: 2em;
@@ -104,12 +104,12 @@ a.add-todo span.material-icons {
   align-items: center;
 }
 
-.settingsBtn:hover {
+.SettingsBtn:hover {
   color: rgba(255, 255, 255, 1.7);
   transform: scale(1.2);
   transition: ease-in 300ms;
 }
 
-.settingsBtn .material-icons {
+.SettingsBtn .MaterialIcons {
   font-size: 1.25rem;
 }

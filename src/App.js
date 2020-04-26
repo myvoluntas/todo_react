@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import TodoItems from "./components/TodoItem/TodoItem";
 import Modal from "./components/Modal/Modal";
+import ColorPicker from "./components/Modal/ColorPicker/ColorPicker";
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
           <TodoItems />
         </div>
         <Modal />
+        <ColorPicker/>
         <p>Hello</p>
       </>
     );
