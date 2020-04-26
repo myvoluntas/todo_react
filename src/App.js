@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar/Navbar";
-import TodoItems from "./components/TodoItem/TodoItems";
+import TodoItems from "./components/TodoItem/TodoItem";
 import Modal from "./components/Modal/Modal";
 
 class App extends Component {
@@ -8,7 +8,9 @@ class App extends Component {
     return (
       <>
         <Navbar />
-        <TodoItems />
+        <div>
+          <TodoItems />
+        </div>
         <Modal />
         <p>Hello</p>
       </>
