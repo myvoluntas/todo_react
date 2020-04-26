@@ -22,13 +22,13 @@ textarea::placeholder {
   font-size: 0.875rem;
 }
 
-.model_footer {
+.ModelFooter {
   justify-self: center;
   align-self: end;
   margin-top: 1em;
 }
 
-button.todo {
+button.Todo {
   font-size: 1.2em;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -40,11 +40,11 @@ button.todo {
   border: 0;
 }
 
-button.todo-delete {
+button.TodoDelete {
   background-color: #cc6565;
   margin-right: 3em;
 }
 
-button.todo-save {
+button.TodoSave {
   background-color: #62d067;
 }
