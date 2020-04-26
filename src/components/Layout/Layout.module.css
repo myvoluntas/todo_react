@@ -1,0 +1,26 @@
+/* Content */
+.Content {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 1em;
+  width: 100%;
+  margin-top: 5em;
+}
+
+.ContentGridder {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-gap: 0px;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.ContentWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-rows: 1fr;
+  grid-gap: 2em 2em;
+  padding-top: 1.5em;
+}

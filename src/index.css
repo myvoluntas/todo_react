@@ -1,3 +1,4 @@
+/* Beginning of Golbal CSS settings */
 html {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -7,3 +8,19 @@ html {
 body {
   margin: 0;
 }
+
+textarea,
+input,
+button {
+  outline: none;
+}
+/* End of Golbal CSS settings */
+
+/* Container with the grid Content + footer */
+/* .parent {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 5em;
+  grid-gap: 0px;
+  width: 100%;
+} */
