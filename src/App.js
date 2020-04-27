@@ -12,9 +12,6 @@ class App extends Component {
         <div>
           <TodoItems />
         </div>
-        <Modal />
-        <ColorPicker/>
-        <p>Hello</p>
       </>
     );
   }

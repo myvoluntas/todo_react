@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./Navbar.module.css";
+import Icon from '@material-ui/core/Icon';
 
 const Navbar = props => {
   return (
@@ -9,15 +10,16 @@ const Navbar = props => {
           <span>do</span> / me
         </h1>
         <a
-          className={[classes.AddTodo, classes.MaterialIcons].join(" ")}
+          className={classes.AddTodo}
           id="newTodo"
         >
-          <span className={classes.AddTodo}>add</span>
+          <span className="MaterialIcons"><Icon style={{ fontSize: 24 }}>add</Icon></span>
         </a>
       </div>
       <div className={classes.NavbarRight}>
         <div className={classes.SettingsBtn} id="colorSettings">
-          <span className={classes.MaterialIcons}>palette</span>
+          <Icon>palette</Icon>
+
         </div>
       </div>
     </div>
