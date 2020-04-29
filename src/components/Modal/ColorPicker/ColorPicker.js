@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./ColorPicker.module.css";
-//import modalBox from "../Modal.module.css";
 import Close from '@material-ui/icons/Close';
 
 const ColorPicker = props => {
@@ -11,6 +10,7 @@ const ColorPicker = props => {
           className={classes.CloseModal}
           id="closeBkgColorModal"
           type="button"
+          onClick={props.handleModalColour}
         >
           <Close />
         </button>
