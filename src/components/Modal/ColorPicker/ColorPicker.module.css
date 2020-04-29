@@ -1,15 +1,42 @@
-/* Make me yours overlay styles */
-.ModalContainerBkgColor p {
+.ModalHeader {
+  justify-self: end;
+  height: 40px;
+}
+
+button.CloseModal {
+  border: 0;
+  padding: 0;
+  color: #666666;
+  background-color: transparent;
+}
+
+.ModalContentHeader {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #666666;
+  margin-bottom: 0.5em;
+}
+
+.ModalContentHeader span {
+  font-weight: 700;
+}
+
+.ModalContentBox {
+  margin-bottom: 2em;
   color: #999999;
   font-size: 0.875rem;
-  line-height: 1.5em;
+  line-height: 1.2em;
 }
 
-.ModalContainerBkgColor .ModelContentBox {
-  margin: 1em 0;
+.ModalContentBox label {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #adadad;
+  margin-left: 1em;
 }
 
-.ModelContentBox p span {
+.ModalContentBoxUpper {
   text-transform: uppercase;
 }
 .CenterElement {
@@ -27,6 +54,7 @@
   border: 5px solid #ffffff;
   margin-bottom: 1em;
   background-color: #ffffff;
+  box-sizing: border-box;
 }
 
 .HeaderColor,
@@ -35,6 +63,7 @@
   width: 100%;
   font-size: 0.75rem;
   cursor: pointer;
+  box-sizing: border-box;
 }
 
 .HeaderColor {
@@ -92,6 +121,7 @@
   margin-right: 2em;
   box-shadow: 0px 3px 6px 2px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  box-sizing: border-box;
 }
 
 .ColorBox:hover {

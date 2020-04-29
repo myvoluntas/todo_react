@@ -1,3 +1,41 @@
+.ModalHeader {
+  justify-self: end;
+  height: 40px;
+}
+
+button.CloseModal {
+  border: 0;
+  padding: 0;
+  color: #666666;
+  background-color: transparent;
+}
+
+.ModalContentHeader {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #666666;
+  margin-bottom: 0.5em;
+}
+
+.ModalContentHeader span {
+  font-weight: 700;
+}
+
+.ModalContentBox {
+  margin-bottom: 2em;
+  color: #999999;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+}
+
+.ModalContentBox label {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #adadad;
+  margin-left: 1em;
+}
+
 textarea {
   border: 1px solid #d1d1d1;
   background-color: #ffffff;

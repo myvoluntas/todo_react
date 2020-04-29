@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar/Navbar";
-import TodoItems from "./components/TodoItem/TodoItem";
+import Layout from "./components/Layout/Layout";
 import Modal from "./components/Modal/Modal";
 import ColorPicker from "./components/Modal/ColorPicker/ColorPicker";
 
@@ -9,9 +9,7 @@ class App extends Component {
     return (
       <>
         <Navbar />
-        <div>
-          <TodoItems />
-        </div>
+        <Modal />
       </>
     );
   }
