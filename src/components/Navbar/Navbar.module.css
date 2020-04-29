@@ -112,6 +112,7 @@ a.AddTodo span.MaterialIcons {
   transition: ease-in 300ms;
 }
 
-.SettingsBtn .MaterialIcons {
+.SettingsBtn .material-icons {
   font-size: 1.25rem;
+  line-height: 2em;
 }
