@@ -1,4 +1,7 @@
 /* Modal page styles */
+.ModalDisplay {
+  display: none;
+}
 
 .ModalContainer {
   display: grid;

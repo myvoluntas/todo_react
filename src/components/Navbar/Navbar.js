@@ -10,15 +10,16 @@ const Navbar = props => {
         <h1>
           <span>do</span> / me
         </h1>
-        <a href="https://google.com"
+        <a href="#"
           className={classes.AddTodo}
           id="newTodo"
+          onClick={props.handleModalTodo}
         >
-          <span className="material-icons"><Add /></span>
+          <span className="material-icons" ><Add /></span>
         </a>
       </div>
-      <div className={classes.NavbarRight}>
-        <div className={classes.SettingsBtn} id="colorSettings">
+      <div className={classes.NavbarRight} >
+        <div className={classes.SettingsBtn} id="colorSettings" onClick={props.handleModalColour} >
           <Palette />
         </div>
       </div>
