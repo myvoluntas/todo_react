@@ -10,7 +10,7 @@ const TodoInput = props => {
     </div>
     <form action="">
       <div className={classes.ModalContent}>
-        <div className={classes.ModalHeader}><span>Do</span> / me</div>
+        <div className={classes.ModalContentHeader}><span>Do</span> / me</div>
         <div className={classes.ModalContentBox}> 
           <textarea placeholder="What would you like to do?" maxLength="120" cols="30" rows="5"></textarea>
           <label>Max. 120 characters</label>
@@ -22,9 +22,7 @@ const TodoInput = props => {
         </div>
       </div>
       <div className={classes.ModalFooter}>
-        <div>
           <button className={[classes.Todo, classes.TodoSave].join(' ')} type= "submit">Save</button>
-        </div>
       </div>
     </form>
   </>
