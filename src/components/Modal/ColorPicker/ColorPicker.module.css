@@ -94,11 +94,12 @@ button.CloseModal {
 }
 
 .BodyColorOptions {
-  display: none;
+  display: flex;
 }
 
 .HeadColorOptions,
 .BodyColorOptions {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
