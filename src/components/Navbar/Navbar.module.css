@@ -9,18 +9,22 @@
   margin-top: 0;
   position: fixed;
   top: 0;
-  background: #c471ed; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
+  /*background: #c471ed;  fallback for old browsers */
+  /* background: -webkit-linear-gradient(
     to right,
     #c471ed,
     #f64f59
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); 
   background: linear-gradient(
     to right,
     #c471ed,
     #f64f59
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  );  */
   z-index: 1;
+}
+
+.NavbarBackground {
+  background: #c471ed;
 }
 
 
@@ -59,7 +63,7 @@
 }
 
 /* Add todo button */
-a.AddTodo {
+button.AddTodo {
   margin-top: -10px;
   display: grid;
   grid-template-rows: 1fr;
@@ -75,7 +79,7 @@ a.AddTodo {
   
 }
 
-a.AddTodo:hover {
+button.AddTodo:hover {
   background-color: #000;
   color: #ffffff;
   transform: scale(1.2);
@@ -88,7 +92,7 @@ a.AddTodo:hover {
   width: inherit;
 }
 
-a.AddTodo span.MaterialIcons {
+button.AddTodo span.MaterialIcons {
   grid-row: 2 / 3;
   grid-gap: 0px;
   line-height: 50px;
